@@ -4,9 +4,11 @@
 
 FRE-GY 7871 A · NLP and the Investment Process
 
-**Name:** Yuri Moghaddam Nasrollahi
-**NetID:** ym3414
-**GitHub repo:** https://github.com/Yuri48/FinEng
+<p class="meta">
+<strong>Name:</strong> Yuri Moghaddam Nasrollahi<br>
+<strong>NetID:</strong> ym3414<br>
+<strong>GitHub repo:</strong> https://github.com/Yuri48/FinEng
+</p>
 
 ---
 
