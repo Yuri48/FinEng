@@ -1,0 +1,9 @@
+Release,Document,Title,Word list,FinBERT sent.,FinBERT sim.,ΔDXY (%),Δ10s2s (bp),Δ1y (bp),ΔG−V (%),Δ3m bill (bp)
+2026-06-17,Press conference,"Press conference, 17 June 2026",1.0,0.093,1.29,0.55,-9.0,14.0,-0.26,4.0
+2026-06-17,Statement,FOMC statement,1.0,0.547,4.23,0.55,-9.0,14.0,-0.26,4.0
+2026-07-08,Minutes,Minutes of the June 2026 meeting,0.58,0.128,0.4,-0.09,-1.0,0.0,1.51,1.0
+2026-07-14,Testimony,Semiannual Monetary Policy Report to the Congres,0.67,0.187,2.52,-0.34,4.0,-10.0,1.43,-5.0
+2026-07-29,Press conference,"Press conference, 29 July 2026",0.82,0.084,1.05,-0.57,10.0,-5.0,-0.97,-7.0
+2026-07-29,Statement,FOMC statement,1.0,0.384,3.24,-0.57,10.0,-5.0,-0.97,-7.0
+2026-08-19,Minutes,Minutes of the July 2026 meeting,0.6,0.108,0.02,-0.82,-6.0,1.0,-0.84,0.0
+2026-08-28,Speech,In Our Time,0.8,0.063,0.9,0.54,-8.0,11.0,-0.21,6.0

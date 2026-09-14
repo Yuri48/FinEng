@@ -1,0 +1,14 @@
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=4.9
+pypdf>=4.0
+yfinance>=0.2.40
+statsmodels>=0.14
+scipy>=1.10
+matplotlib>=3.7
+torch>=2.1
+transformers>=4.40
+jupyter
+nbconvert
