@@ -1,21 +1,9 @@
-# Data is not committed. Everything under data/ is reproducible from scripts/,
-# except the frozen ARK holdings snapshot, which defines the class sample.
-data/**
-!data/
-!data/*/
-!data/**/.gitkeep
-!data/universe/ark_holdings_raw.csv
-
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
+# Repo-level junk only. Each assignment folder carries its own .gitignore.
 .venv/
 venv/
 .env
+.pytest_cache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
 .DS_Store
-outputs/*
-!outputs/.gitkeep
-
-# Instructor-built data archive, distributed as a GitHub Release asset
-ark_filings_*.tar.gz
-download.log
