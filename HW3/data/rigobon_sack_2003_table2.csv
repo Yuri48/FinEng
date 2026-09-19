@@ -1,0 +1,9 @@
+code,variable,units,RS2003_nu1,RS2003_t1,RS2003_nu2,RS2003_t2,RS2003_nu3,RS2003_t3,RS2003_pct_H,RS2003_pct_all
+UST10Y,Ten-year Treasury yield,pp chg,-0.26,11.66,-0.26,11.70,-0.26,11.85,84.7,62.8
+BEI10Y,Break-even inflation (10y),pp chg,-0.13,3.95,-0.04,1.07,-0.11,3.45,57.1,31.0
+SPX,S&P 500,pct chg,-3.85,2.96,-5.67,2.44,-3.76,2.90,34.2,19.7
+BBB_OAS,BBB yield spread,pp chg,0.06,3.79,0.04,2.57,0.05,3.79,52.8,15.5
+HY_OAS,High-yield spread,pp chg,0.32,4.97,0.38,5.00,0.34,5.40,80.6,52.0
+WTI_FUT,Oil price (12-month future),$ chg,0.72,2.25,1.10,1.70,0.77,2.44,38.2,19.2
+GOLD,Gold price,$ chg,4.17,0.82,41.95,0.90,1.30,0.26,0.4,0.2
+USD_BROAD,Dollar (broad index),pct chg,-0.42,2.18,-1.39,2.14,-0.44,2.22,22.9,13.5

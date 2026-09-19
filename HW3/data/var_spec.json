@@ -1,0 +1,126 @@
+{
+ "UST2Y": {
+  "units": "pp chg",
+  "label": "Two-year Treasury yield"
+ },
+ "UST10Y": {
+  "units": "pp chg",
+  "label": "Ten-year Treasury yield"
+ },
+ "BEI10Y": {
+  "units": "pp chg",
+  "label": "10y break-even inflation"
+ },
+ "TIPS10Y": {
+  "units": "pp chg",
+  "label": "10y TIPS real yield"
+ },
+ "BBB_OAS": {
+  "units": "pp chg",
+  "label": "BBB corporate OAS"
+ },
+ "HY_OAS": {
+  "units": "pp chg",
+  "label": "High-yield corporate OAS"
+ },
+ "SPX": {
+  "units": "pct chg",
+  "label": "S&P 500"
+ },
+ "STOXX50": {
+  "units": "pct chg",
+  "label": "Euro Stoxx 50"
+ },
+ "NIKKEI": {
+  "units": "pct chg",
+  "label": "Nikkei 225"
+ },
+ "EEM": {
+  "units": "pct chg",
+  "label": "EM equities (EEM)"
+ },
+ "TA35": {
+  "units": "pct chg",
+  "label": "Tel Aviv 35"
+ },
+ "KSA": {
+  "units": "pct chg",
+  "label": "Saudi equities (KSA ETF)"
+ },
+ "ITA": {
+  "units": "pct chg",
+  "label": "US defense ETF (ITA)"
+ },
+ "JETS": {
+  "units": "pct chg",
+  "label": "US airlines ETF (JETS)"
+ },
+ "XLE": {
+  "units": "pct chg",
+  "label": "US energy ETF (XLE)"
+ },
+ "WTI_FUT": {
+  "units": "$ chg",
+  "label": "WTI front-month future"
+ },
+ "BRENT_FUT": {
+  "units": "$ chg",
+  "label": "Brent front-month future"
+ },
+ "WTI_FUT_PCT": {
+  "units": "pct chg",
+  "label": "WTI front-month future"
+ },
+ "NATGAS": {
+  "units": "pct chg",
+  "label": "Henry Hub natgas future"
+ },
+ "GOLD": {
+  "units": "$ chg",
+  "label": "Gold future"
+ },
+ "GOLD_PCT": {
+  "units": "pct chg",
+  "label": "Gold future"
+ },
+ "USD_BROAD": {
+  "units": "pct chg",
+  "label": "Broad trade-weighted dollar"
+ },
+ "DXY": {
+  "units": "pct chg",
+  "label": "DXY dollar index"
+ },
+ "EURUSD": {
+  "units": "pct chg",
+  "label": "EUR/USD"
+ },
+ "USDJPY": {
+  "units": "pct chg",
+  "label": "USD/JPY"
+ },
+ "USDCHF": {
+  "units": "pct chg",
+  "label": "USD/CHF"
+ },
+ "BTC": {
+  "units": "pct chg",
+  "label": "Bitcoin"
+ },
+ "VIX": {
+  "units": "pt chg",
+  "label": "VIX"
+ },
+ "TLT": {
+  "units": "pct chg",
+  "label": "20y+ Treasury ETF (TLT)"
+ },
+ "HYG": {
+  "units": "pct chg",
+  "label": "HY bond ETF (HYG)"
+ },
+ "BDRY": {
+  "units": "pct chg",
+  "label": "Dry-bulk shipping ETF (BDRY)"
+ }
+}

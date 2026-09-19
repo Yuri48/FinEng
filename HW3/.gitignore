@@ -1,0 +1,19 @@
+# Raw scraped corpora and raw price downloads are not committed; collect_news.py, wiki_timeline.py and
+# market_data.py rebuild them. The derived daily files needed to rerun the estimation are committed.
+data/gnews_headlines.jsonl
+data/wiki_current_events.jsonl
+data/wiki_*.txt
+data/finbert_cache.json
+data/yahoo_close_raw.csv
+data/fred_raw.csv
+data/all_headlines.csv
+data/gdelt_*.csv
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+*.log
