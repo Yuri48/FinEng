@@ -4,7 +4,7 @@ sp = json.load(open("output/specs.json")); spec = json.load(open("data/var_spec.
 rs = pd.read_csv("data/rigobon_sack_2003_table2.csv").set_index("code")
 def md(df, floatfmt="{:.3f}"):
     cols = list(df.columns); out = ["| " + " | ".join(cols) + " |", "|" + "---|" * len(cols)]
-    for _, r in df.iterrows(): out.append("| " + " | ".join((floatfmt.format(v) if isinstance(v, (float, np.floating)) and not pd.isna(v) else ("" if (isinstance(v, float) and pd.isna(v)) else str(v))) for v in r.values) + " |")
+    for _, r in df.iterrows(): out.append("| " + " | ".join((floatfmt.format(v) if isinstance(v, (float, np.floating)) and not pd.isna(v) else ("" if (isinstance(v, float) and pd.isna(v)) else str(v).replace(" | ", " · ").replace("|", "/"))) for v in r.values) + " |")
     return "\n".join(out)
 def fmt_t(b, t): return f"{b:.3g} ({t:.2f})" if pd.notna(b) else ""
 L = []
@@ -13,6 +13,7 @@ t1 = pd.read_csv("output/table1_S1_level_q75.csv")
 L.append("## Table 1. NLP-selected high-variance war-news days (baseline S1)\n")
 L.append("Direction = sign of the escalation-lexicon score of that day's relevant headlines (>0.2 increased risk, <-0.2 decreased). Market columns are the day's changes: 2y yield (bp), S&P 500 (%), Brent front future ($), high-yield OAS (bp).\n")
 t1v = t1[["date", "index", "risk_direction", "d2y_bp", "dSPX_pct", "dBrent_usd", "dHY_bp", "headlines"]].copy(); t1v["headlines"] = t1v["headlines"].str.slice(0, 230)
+t1v.columns = ["Date", "Index", "Direction", "2y (bp)", "S&P 500 (%)", "Brent ($)", "HY OAS (bp)", "Top headlines"]
 L.append(md(t1v, "{:.2f}"))
 # ---- Table 2 analogue for each spec (UST2Y normalisation), paper's 8 variables + selected global ones
 for tag, title in [("S1_level_q75", "S1 baseline: full sample, top-25% NLP index, nearest-day L"), ("S4_prewar", "S4 pre-war window (2 Jan - 27 Feb): top-36% NLP index, as in the paper's 17/47 design"), ("S5_warpost", "S5 war and post-war window (2 Mar - 16 Sep)"), ("S6_curated", "S6 hand-curated event days (the paper's 'reading newspapers' approach)"), ("S3_surprise_q75", "S3 surprise index (intensity relative to the trailing 10-day median)"), ("S7_volume_q75", "S7 volume-only index (headline count + Wikipedia text volume), which concentrates on the sustained-war weeks")]:
@@ -23,6 +24,9 @@ for tag, title in [("S1_level_q75", "S1 baseline: full sample, top-25% NLP index
     L.append(md(v))
     L.append(f"\n### Table 3 ({tag}). Variances and share explained by the war-risk factor\n")
     v3 = t[["variable", "Var L", "Var H", "Pred dVar", "% expl H", "% expl all"]].rename(columns={"variable": "Variable", "Var L": "Var. on L days", "Var H": "Var. on H days", "Pred dVar": "Predicted change in var.", "% expl H": "% explained, H days", "% expl all": "% explained, all days"})
+    if t["% expl H"].isna().all():
+        L.append(f"Not identified under this normalisation: the variance of the two-year yield is lower on the H days ({s['var2y_L_H'][1]:.5f}) than on the L days ({s['var2y_L_H'][0]:.5f}), so the predicted change in variance is negative and no share can be attributed. See the Brent-normalised tables.\n")
+        v3["% explained, H days"] = "n.i."; v3["% explained, all days"] = "n.i."
     L.append(md(v3, "{:.4g}"))
 # ---- Brent normalisation, baseline
 t = pd.read_csv("output/table2_S1_level_q75_brent.csv")

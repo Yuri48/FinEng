@@ -140,53 +140,53 @@ Araci, D. (2019). FinBERT: Financial sentiment analysis with pre-trained languag
 
 Direction = sign of the escalation-lexicon score of that day's relevant headlines (>0.2 increased risk, <-0.2 decreased). Market columns are the day's changes: 2y yield (bp), S&P 500 (%), Brent front future ($), high-yield OAS (bp).
 
-| date | index | risk_direction | d2y_bp | dSPX_pct | dBrent_usd | dHY_bp | headlines |
+| Date | Index | Direction | 2y (bp) | S&P 500 (%) | Brent ($) | HY OAS (bp) | Top headlines |
 |---|---|---|---|---|---|---|---|
-| 2026-02-17 | 0.82 | Unclear | 3 | 0.10 | -0.33 | 0 | Iran says 'guiding principles' agreed with US at nuclear talks | Iran says "clearer path ahead" to nuclear deal with U.S. after talks in Geneva under shadow of Trump's threats | Reza Pahlavi urges Trump to ditch Iran talks as US e |
-| 2026-02-18 | 0.92 | Increased | 4 | 0.56 | 2.93 | -8 | President Trump warns of 'bad things' if Iran fails to make nuclear deal | Iran says ‘good progress’ made in nuclear talks with US in Geneva | Trump warns of 'bad things' if Iran doesn't make a deal, as U.S. carrier approaches reg |
-| 2026-02-25 | 0.83 | Unclear | 2 | 0.81 | 0.08 | -3 | U.S. and Iran wrap up 'most intense' nuclear talks with no deal — more negotiations ahead | Iran threatens escalation if US attacks | US-Iran nuclear talks end without a deal as threat of war grows |
-| 2026-02-27 | 2.44 | Increased | -4 | -0.43 | 1.73 | 12 | Attacks on Iran and retaliatory strikes ‘undermine international peace and security’ | Iranian leader Khamenei killed in air strikes as U.S., Israel launch attacks | Mapping US and Israeli attacks on Iran and Tehran’s retaliatory  |
-| 2026-03-17 | 0.68 | Increased | 0 | 0.25 | 3.21 | -5 | Iran Launches Missile Attack on Tel Aviv in Retaliation for Latest Killings | Strikes hit world’s largest natural gas field in Iran, and Tehran retaliates with more attacks | Iran blames Israel for gas field attack, fires missiles |
-| 2026-03-23 | 0.96 | Increased | -5 | 1.14 | -12.25 | -5 | Iran strikes near Israeli nuclear research center as Trump threatens attacks on Iranian power plants | Trump says Iran is eager for a deal to end the war as he extends deadline to allow for diplomacy | Iran attacks near Israeli nu |
-| 2026-04-06 | 1.43 | Increased | 0 | 0.44 | 0.74 | -8 | Trump warns of "critical period" in Iran war, threatening severe strikes if there's no deal by Tuesday night | Iran updates: Pakistan seeks 2-week pause after Trump warns 'whole civilization will die' if no deal by deadline | Trum |
-| 2026-04-08 | 0.88 | Increased | -2 | 2.48 | -14.52 | -18 | War on Iran during nuclear negotiations undermines the US’s ability to talk peace around the world − and the effects won’t end when Trump leaves office | Ceasefire is threatened as Israel expands Lebanon strikes and Iran closes st |
-| 2026-04-09 | 0.69 | Increased | -1 | 0.62 | 1.17 | -4 | War on Iran during nuclear negotiations undermines the US’s ability to talk peace around the world − and the effects won’t end when Trump leaves office | Iran war ceasefire teeters over disagreements on Lebanon and the Strait of H |
-| 2026-04-10 | 0.96 | Unclear | 3 | -0.11 | -0.72 | 4 | US and Iran end 21-hour ceasefire talks without agreement before Vance departs Pakistan | U.S. and Iran prepare for ceasefire talks as Netanyahu authorizes negotiations with Lebanon | How many people have been killed in the Iran w |
-| 2026-04-13 | 1.70 | Unclear | -3 | 1.01 | 4.16 | 1 | Trump threatens Strait of Hormuz blockade after US-Iran ceasefire talks end without agreement | US begins blockade of Iran's ports, Tehran threatens retaliation | US military says it will blockade Iranian ports after ceasefire tal |
-| 2026-04-22 | 1.07 | Increased | 1 | 1.04 | 3.43 | -1 | Iran says it has seized two ships in Strait of Hormuz after U.S. extends ceasefire | Iran fires on 3 ships in the Strait of Hormuz, complicating efforts to resume U.S. ceasefire talks | Trump extends ceasefire as uncertainty over  |
-| 2026-04-24 | 0.97 | Increased | -5 | 0.79 | 0.26 | 0 | Latest ceasefire talks fail as Iran's top diplomat leaves Pakistan and Trump tells envoys not to go | Trump cancels US envoys' trip to Pakistan for talks on Iran war | Live Updates: Hopes for Peace Deal Rise After Iran Says Strait |
-| 2026-05-04 | 1.27 | Increased | 7 | -0.41 | 6.27 | 1 | U.S. And Iran Fail to Agree on Peace Deal After 21 Hours of Talks, Vance Says | Markets on edge as fresh U.S.-Iran attacks dent optimism over a peace deal | US strikes Iranian fast boats as Iran attacks UAE oil facility |
-| 2026-05-05 | 0.80 | Increased | -2 | 0.81 | -4.57 | -1 | Trump says Iran will be bombed at a 'much higher level' if it doesn't agree to peace deal | U.S. And Iran Fail to Agree on Peace Deal After 21 Hours of Talks, Vance Says | Markets on edge as fresh U.S.-Iran attacks dent optimism o |
-| 2026-05-06 | 1.21 | Increased | -6 | 1.45 | -8.60 | -2 | Trump says Iran will be bombed at a 'much higher level' if it doesn't agree to peace deal | Trump declares US has won the war with Iran as nuclear deal negotiations continue | Iran War Updates: Tehran and U.S. Offer Conflicting Me |
-| 2026-05-11 | 1.36 | Increased | 5 | 0.19 | 2.92 | -2 | Iran says US making ‘unreasonable’ demands in negotiations to end war | Iran warns the US against attacks on its oil tankers and other ships but ceasefire appears to hold | Israel is worried that Trump will strike a ‘bad deal’ wit |
-| 2026-05-12 | 1.19 | Increased | 5 | -0.16 | 3.56 | 3 | Iran threatens to "teach a lesson" if U.S. attacks, Trump says ceasefire is "on life support" | Israel is worried that Trump will strike a ‘bad deal’ with Iran, leaving war objectives unmet | U.S. Might Restart Strikes on Iran, Tr |
-| 2026-05-18 | 1.62 | Increased | -2 | -0.07 | 2.84 | 3 | Trump calls off scheduled attack on Iran amid "serious negotiations" toward peace deal | Iran war day 78: Trump, Tehran signal talks as Lebanon truce extended | U.A.E. reports drone strike at nuclear power plant as Iran war deadlo |
-| 2026-05-20 | 1.21 | Increased | -9 | 1.07 | -6.26 | -6 | Iran Threatens to Strike Beyond the Middle East if the U.S. Resumes Attacks | Iran threatens to extend conflict ‘beyond the region’ if U.S. and Israel resume attacks | Iran threatens war ‘beyond the region’ if U.S. attacks |
-| 2026-05-26 | 2.16 | Unclear | -12 | 0.61 | -3.96 | -2 | U.S. military strikes Iran as Trump says negotiations move forward for deal to end war | U.S. and Iran work toward deal to extend ceasefire and reopen Strait of Hormuz | US says it launched ‘self-defense strikes’ in Iran as peace  |
-| 2026-05-27 | 0.93 | Unclear | -1 | 0.02 | -5.29 | -1 | Traders' hopes fade for U.S.-Iran nuclear deal this year despite report on potential ceasefire agreement | The Latest: Iran negotiators agree to extend ceasefire, begin nuclear talks pending Trump approval | U.S. and Iran Move Tow |
-| 2026-06-01 | 0.83 | Unclear | 7 | 0.26 | 2.93 | -2 | Iran fires missiles and US strikes Iran facility after reports of faltering peace talks | U.S. bombs Iranian military sites and downs missiles Tehran fired at troops in Kuwait | US Bombs Iranian Military Sites, Then Downs Missiles |
-| 2026-06-02 | 1.72 | Increased | 0 | 0.13 | 1.02 | -1 | Iran fires missiles and US strikes Iran facility after reports of faltering peace talks | Kuwait says Iranian drones hit airport and killed 1 as ceasefire is tested again | One killed and dozens injured in Iranian drone strikes on |
-| 2026-06-03 | 0.95 | Increased | 3 | -0.74 | 1.81 | 4 | Kuwait says Iranian drones hit airport and killed 1 as ceasefire is tested again | One killed and dozens injured in Iranian drone strikes on Kuwait airport | Iranian drone attack kills Indian citizen in Kuwait after US strikes Qes |
-| 2026-06-11 | 1.76 | Unclear | -8 | 1.74 | -2.72 | -2 | Iran war day 104: Iran attacks US bases, closes strait after Trump strikes | US and Iran have agreed to wording of a deal to end their war, Pakistan's prime minister says | Trump calls off latest threats to strike Iran, citing a b |
-| 2026-06-12 | 1.60 | Decreased | 4 | 0.50 | -3.05 | -7 | Trump condemns Israeli strike in Beirut, warning attacks threaten deal on U.S-Iran war | US and Iran have agreed to wording of a deal to end their war, Pakistan's prime minister says | Trump calls off latest threats to strike Iran |
-| 2026-06-15 | 0.83 | Decreased | -2 | 1.64 | -4.16 | -5 | Iran and US agree deal to open Strait of Hormuz and extend ceasefire | U.S. and Iran Reach Agreement to Reopen Strait and Begin Nuclear Talks | Trump condemns Israeli strike in Beirut, warning attacks threaten deal on U.S-Iran war |
-| 2026-06-29 | 1.19 | Unclear | 3 | 1.17 | 1.16 | -3 | Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks to end the war | Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks | Iran attacks Bahrain and Kuwait following U.S. st |
-| 2026-07-01 | 0.71 | Unclear | 3 | -0.22 | -1.35 | -1 | Iran Bans UN Nuclear Inspectors from Bombed Nuclear Sites after US-Israel Strikes | U.S. Military Strikes Missile and Drone Sites in Iran | As the Pentagon stays quiet, AP reconstructs a US strike that killed over 100 Iranian chil |
-| 2026-07-06 | 2.28 | Increased | -1 | 0.72 | 0.19 | -2 | U.S. Strikes Iran and Reimposes Sanctions in Retaliation for Tanker Attacks | US Iran strikes today: US launches new strikes on Iran, revokes oil sales permit after 3 ships attacked in Strait of Hormuz | US launches new strikes on |
-| 2026-07-08 | 0.91 | Increased | 2 | -0.28 | 3.86 | 3 | U.S. hits dozens of Iranian targets in retaliatory strikes after ship attacks in Strait of Hormuz | Iran fires 10 missiles at Jordan after US strikes reported near Bushehr nuclear plant | US Iran strikes today: US launches new str |
-| 2026-07-09 | 0.89 | Increased | -5 | 0.81 | -1.72 | 0 | Iran fires 10 missiles at Jordan after US strikes reported near Bushehr nuclear plant | Iran Says U.S. Strikes Targeted Bushehr Nuclear Plant, Warns of Retaliation Against American Bases | US and Iran exchange intensifying fire ac |
-| 2026-07-13 | 0.97 | Increased | 5 | -0.80 | 7.29 | 0 | U.S.-Iran strikes escalate over the Strait of Hormuz, threatening to collapse ceasefire | Trump resumes Iran port blockade and threatens strikes on energy targets | Iran launches missiles and drones at Gulf states after US strikes |
-| 2026-08-03 | 1.50 | Unclear | -3 | 1.47 | -6.35 | -7 | Iran denies seeking halt to US attacks, agreement to reopen Strait of Hormuz | Trump threatens more strikes on Iran. Tensions from Hormuz to Kuwait and Gaza lead to more warnings | Iran threatens to strike other nations’ energy fi |
-| 2026-08-05 | 0.71 | Unclear | -2 | -0.17 | 0.09 | 2 | Trump warns Iran will be hit 'really hard' if nuclear negotiations collapse again | Trump warns Iran will be hit ‘really hard’ if nuclear negotiations collapse again | EXCLUSIVE: Iran threatens to hit Gulf states if US launches ne |
-| 2026-08-17 | 0.73 | Increased | 2 | -0.52 | 2.35 | 3 | As U.S.-Iran deadline for broad peace deal expires, Trump threatens to ‘bomb’ Oman | Iran threatens new offensive while US rules out extending ceasefire deal | Trump won't extend Iran ceasefire, threatens to 'bomb' Oman if it 'get |
-| 2026-08-20 | 0.82 | Increased | 0 | -0.87 | 2.16 | 2 | Iran vows 'devastating' response as US threatens crushing sanctions designed to 'collapse' regime | US allies in Asia wary as Trump moves military assets for Iran war | Iran threatens military response to US sanctions |
-| 2026-08-25 | 0.99 | Increased | -7 | 0.32 | -3.59 | 1 | Iran’s nuclear chief says attacked nuclear sites not secure for IAEA inspection | Can Trump's economic war against Iran do what airstrikes and negotiations couldn't? | Iran vows retaliation after U.S. widens sanctions, fueling fea |
-| 2026-08-31 | 1.01 | Increased | 0 | -0.33 | 1.18 | 3 | Iran claims attacks on Bahrain, Jordan, Iraq after US strikes kill 11 | Iran fires on its Gulf neighbors, retaliating for US strikes after a wedding was hit | U.S. Attacks Island in Strait of Hormuz; Iran Retaliates With Missile F |
-| 2026-09-01 | 1.11 | Increased | 5 | -0.71 | 4.16 | 2 | Iran claims attacks on Bahrain, Jordan, Iraq after US strikes kill 11 | Iran fires on U.S. allies in Gulf after night of American strikes it claims killed four at a wedding | Iran fires on its Gulf neighbors, retaliating for US st |
-| 2026-09-08 | 0.90 | Increased | 2 | -0.59 | 1.64 | -1 | US military strikes three Iranian tankers in retaliation for missile attacks | Hormuz traffic slows after Iran threatens retaliation for US attacks | U.S. Hits 5 Iranian Oil Tankers, Citing Attempted Strikes on Warship |
-| 2026-09-14 | 1.16 | Increased | 2 | -0.48 | 1.07 | 6 | Iran-backed Houthis claim to hit Saudi base with missiles, drones amid renewed fighting | Iraq probes drone strikes on Saudi Arabia, shuts three crossings to Iran | Iran hardliners said to have launched attacks in defiance of lead |
-| 2026-09-15 | 2.07 | Increased | 2 | -0.45 | 3.07 | 5 | Saudi strikes and Houthi attacks widen Middle East war | New photos show widespread damage at U.S. positions caused by Iranian missile, drone attacks | Iran war cost hits $38 billion, forecast to rise $3 billion a month, CBO says |
-| 2026-09-17 | 0.77 | Increased | -7 | 1.13 | -1.01 | 0 | Iran in, Abbas out: Trump threatens new strikes as US grants Tehran leaders UN visas | Houthi media says Saudi strikes kill one, hit telecom towers in Yemen | US approves visas for top Iranian leaders to attend UN high-level meeti |
+| 2026-02-17 | 0.82 | Unclear | 3 | 0.10 | -0.33 | 0 | Iran says 'guiding principles' agreed with US at nuclear talks · Iran says "clearer path ahead" to nuclear deal with U.S. after talks in Geneva under shadow of Trump's threats · Reza Pahlavi urges Trump to ditch Iran talks as US e |
+| 2026-02-18 | 0.92 | Increased | 4 | 0.56 | 2.93 | -8 | President Trump warns of 'bad things' if Iran fails to make nuclear deal · Iran says ‘good progress’ made in nuclear talks with US in Geneva · Trump warns of 'bad things' if Iran doesn't make a deal, as U.S. carrier approaches reg |
+| 2026-02-25 | 0.83 | Unclear | 2 | 0.81 | 0.08 | -3 | U.S. and Iran wrap up 'most intense' nuclear talks with no deal — more negotiations ahead · Iran threatens escalation if US attacks · US-Iran nuclear talks end without a deal as threat of war grows |
+| 2026-02-27 | 2.44 | Increased | -4 | -0.43 | 1.73 | 12 | Attacks on Iran and retaliatory strikes ‘undermine international peace and security’ · Iranian leader Khamenei killed in air strikes as U.S., Israel launch attacks · Mapping US and Israeli attacks on Iran and Tehran’s retaliatory  |
+| 2026-03-17 | 0.68 | Increased | 0 | 0.25 | 3.21 | -5 | Iran Launches Missile Attack on Tel Aviv in Retaliation for Latest Killings · Strikes hit world’s largest natural gas field in Iran, and Tehran retaliates with more attacks · Iran blames Israel for gas field attack, fires missiles |
+| 2026-03-23 | 0.96 | Increased | -5 | 1.14 | -12.25 | -5 | Iran strikes near Israeli nuclear research center as Trump threatens attacks on Iranian power plants · Trump says Iran is eager for a deal to end the war as he extends deadline to allow for diplomacy · Iran attacks near Israeli nu |
+| 2026-04-06 | 1.43 | Increased | 0 | 0.44 | 0.74 | -8 | Trump warns of "critical period" in Iran war, threatening severe strikes if there's no deal by Tuesday night · Iran updates: Pakistan seeks 2-week pause after Trump warns 'whole civilization will die' if no deal by deadline · Trum |
+| 2026-04-08 | 0.88 | Increased | -2 | 2.48 | -14.52 | -18 | War on Iran during nuclear negotiations undermines the US’s ability to talk peace around the world − and the effects won’t end when Trump leaves office · Ceasefire is threatened as Israel expands Lebanon strikes and Iran closes st |
+| 2026-04-09 | 0.69 | Increased | -1 | 0.62 | 1.17 | -4 | War on Iran during nuclear negotiations undermines the US’s ability to talk peace around the world − and the effects won’t end when Trump leaves office · Iran war ceasefire teeters over disagreements on Lebanon and the Strait of H |
+| 2026-04-10 | 0.96 | Unclear | 3 | -0.11 | -0.72 | 4 | US and Iran end 21-hour ceasefire talks without agreement before Vance departs Pakistan · U.S. and Iran prepare for ceasefire talks as Netanyahu authorizes negotiations with Lebanon · How many people have been killed in the Iran w |
+| 2026-04-13 | 1.70 | Unclear | -3 | 1.01 | 4.16 | 1 | Trump threatens Strait of Hormuz blockade after US-Iran ceasefire talks end without agreement · US begins blockade of Iran's ports, Tehran threatens retaliation · US military says it will blockade Iranian ports after ceasefire tal |
+| 2026-04-22 | 1.07 | Increased | 1 | 1.04 | 3.43 | -1 | Iran says it has seized two ships in Strait of Hormuz after U.S. extends ceasefire · Iran fires on 3 ships in the Strait of Hormuz, complicating efforts to resume U.S. ceasefire talks · Trump extends ceasefire as uncertainty over  |
+| 2026-04-24 | 0.97 | Increased | -5 | 0.79 | 0.26 | 0 | Latest ceasefire talks fail as Iran's top diplomat leaves Pakistan and Trump tells envoys not to go · Trump cancels US envoys' trip to Pakistan for talks on Iran war · Live Updates: Hopes for Peace Deal Rise After Iran Says Strait |
+| 2026-05-04 | 1.27 | Increased | 7 | -0.41 | 6.27 | 1 | U.S. And Iran Fail to Agree on Peace Deal After 21 Hours of Talks, Vance Says · Markets on edge as fresh U.S.-Iran attacks dent optimism over a peace deal · US strikes Iranian fast boats as Iran attacks UAE oil facility |
+| 2026-05-05 | 0.80 | Increased | -2 | 0.81 | -4.57 | -1 | Trump says Iran will be bombed at a 'much higher level' if it doesn't agree to peace deal · U.S. And Iran Fail to Agree on Peace Deal After 21 Hours of Talks, Vance Says · Markets on edge as fresh U.S.-Iran attacks dent optimism o |
+| 2026-05-06 | 1.21 | Increased | -6 | 1.45 | -8.60 | -2 | Trump says Iran will be bombed at a 'much higher level' if it doesn't agree to peace deal · Trump declares US has won the war with Iran as nuclear deal negotiations continue · Iran War Updates: Tehran and U.S. Offer Conflicting Me |
+| 2026-05-11 | 1.36 | Increased | 5 | 0.19 | 2.92 | -2 | Iran says US making ‘unreasonable’ demands in negotiations to end war · Iran warns the US against attacks on its oil tankers and other ships but ceasefire appears to hold · Israel is worried that Trump will strike a ‘bad deal’ wit |
+| 2026-05-12 | 1.19 | Increased | 5 | -0.16 | 3.56 | 3 | Iran threatens to "teach a lesson" if U.S. attacks, Trump says ceasefire is "on life support" · Israel is worried that Trump will strike a ‘bad deal’ with Iran, leaving war objectives unmet · U.S. Might Restart Strikes on Iran, Tr |
+| 2026-05-18 | 1.62 | Increased | -2 | -0.07 | 2.84 | 3 | Trump calls off scheduled attack on Iran amid "serious negotiations" toward peace deal · Iran war day 78: Trump, Tehran signal talks as Lebanon truce extended · U.A.E. reports drone strike at nuclear power plant as Iran war deadlo |
+| 2026-05-20 | 1.21 | Increased | -9 | 1.07 | -6.26 | -6 | Iran Threatens to Strike Beyond the Middle East if the U.S. Resumes Attacks · Iran threatens to extend conflict ‘beyond the region’ if U.S. and Israel resume attacks · Iran threatens war ‘beyond the region’ if U.S. attacks |
+| 2026-05-26 | 2.16 | Unclear | -12 | 0.61 | -3.96 | -2 | U.S. military strikes Iran as Trump says negotiations move forward for deal to end war · U.S. and Iran work toward deal to extend ceasefire and reopen Strait of Hormuz · US says it launched ‘self-defense strikes’ in Iran as peace  |
+| 2026-05-27 | 0.93 | Unclear | -1 | 0.02 | -5.29 | -1 | Traders' hopes fade for U.S.-Iran nuclear deal this year despite report on potential ceasefire agreement · The Latest: Iran negotiators agree to extend ceasefire, begin nuclear talks pending Trump approval · U.S. and Iran Move Tow |
+| 2026-06-01 | 0.83 | Unclear | 7 | 0.26 | 2.93 | -2 | Iran fires missiles and US strikes Iran facility after reports of faltering peace talks · U.S. bombs Iranian military sites and downs missiles Tehran fired at troops in Kuwait · US Bombs Iranian Military Sites, Then Downs Missiles |
+| 2026-06-02 | 1.72 | Increased | 0 | 0.13 | 1.02 | -1 | Iran fires missiles and US strikes Iran facility after reports of faltering peace talks · Kuwait says Iranian drones hit airport and killed 1 as ceasefire is tested again · One killed and dozens injured in Iranian drone strikes on |
+| 2026-06-03 | 0.95 | Increased | 3 | -0.74 | 1.81 | 4 | Kuwait says Iranian drones hit airport and killed 1 as ceasefire is tested again · One killed and dozens injured in Iranian drone strikes on Kuwait airport · Iranian drone attack kills Indian citizen in Kuwait after US strikes Qes |
+| 2026-06-11 | 1.76 | Unclear | -8 | 1.74 | -2.72 | -2 | Iran war day 104: Iran attacks US bases, closes strait after Trump strikes · US and Iran have agreed to wording of a deal to end their war, Pakistan's prime minister says · Trump calls off latest threats to strike Iran, citing a b |
+| 2026-06-12 | 1.60 | Decreased | 4 | 0.50 | -3.05 | -7 | Trump condemns Israeli strike in Beirut, warning attacks threaten deal on U.S-Iran war · US and Iran have agreed to wording of a deal to end their war, Pakistan's prime minister says · Trump calls off latest threats to strike Iran |
+| 2026-06-15 | 0.83 | Decreased | -2 | 1.64 | -4.16 | -5 | Iran and US agree deal to open Strait of Hormuz and extend ceasefire · U.S. and Iran Reach Agreement to Reopen Strait and Begin Nuclear Talks · Trump condemns Israeli strike in Beirut, warning attacks threaten deal on U.S-Iran war |
+| 2026-06-29 | 1.19 | Unclear | 3 | 1.17 | 1.16 | -3 | Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks to end the war · Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks · Iran attacks Bahrain and Kuwait following U.S. st |
+| 2026-07-01 | 0.71 | Unclear | 3 | -0.22 | -1.35 | -1 | Iran Bans UN Nuclear Inspectors from Bombed Nuclear Sites after US-Israel Strikes · U.S. Military Strikes Missile and Drone Sites in Iran · As the Pentagon stays quiet, AP reconstructs a US strike that killed over 100 Iranian chil |
+| 2026-07-06 | 2.28 | Increased | -1 | 0.72 | 0.19 | -2 | U.S. Strikes Iran and Reimposes Sanctions in Retaliation for Tanker Attacks · US Iran strikes today: US launches new strikes on Iran, revokes oil sales permit after 3 ships attacked in Strait of Hormuz · US launches new strikes on |
+| 2026-07-08 | 0.91 | Increased | 2 | -0.28 | 3.86 | 3 | U.S. hits dozens of Iranian targets in retaliatory strikes after ship attacks in Strait of Hormuz · Iran fires 10 missiles at Jordan after US strikes reported near Bushehr nuclear plant · US Iran strikes today: US launches new str |
+| 2026-07-09 | 0.89 | Increased | -5 | 0.81 | -1.72 | 0 | Iran fires 10 missiles at Jordan after US strikes reported near Bushehr nuclear plant · Iran Says U.S. Strikes Targeted Bushehr Nuclear Plant, Warns of Retaliation Against American Bases · US and Iran exchange intensifying fire ac |
+| 2026-07-13 | 0.97 | Increased | 5 | -0.80 | 7.29 | 0 | U.S.-Iran strikes escalate over the Strait of Hormuz, threatening to collapse ceasefire · Trump resumes Iran port blockade and threatens strikes on energy targets · Iran launches missiles and drones at Gulf states after US strikes |
+| 2026-08-03 | 1.50 | Unclear | -3 | 1.47 | -6.35 | -7 | Iran denies seeking halt to US attacks, agreement to reopen Strait of Hormuz · Trump threatens more strikes on Iran. Tensions from Hormuz to Kuwait and Gaza lead to more warnings · Iran threatens to strike other nations’ energy fi |
+| 2026-08-05 | 0.71 | Unclear | -2 | -0.17 | 0.09 | 2 | Trump warns Iran will be hit 'really hard' if nuclear negotiations collapse again · Trump warns Iran will be hit ‘really hard’ if nuclear negotiations collapse again · EXCLUSIVE: Iran threatens to hit Gulf states if US launches ne |
+| 2026-08-17 | 0.73 | Increased | 2 | -0.52 | 2.35 | 3 | As U.S.-Iran deadline for broad peace deal expires, Trump threatens to ‘bomb’ Oman · Iran threatens new offensive while US rules out extending ceasefire deal · Trump won't extend Iran ceasefire, threatens to 'bomb' Oman if it 'get |
+| 2026-08-20 | 0.82 | Increased | 0 | -0.87 | 2.16 | 2 | Iran vows 'devastating' response as US threatens crushing sanctions designed to 'collapse' regime · US allies in Asia wary as Trump moves military assets for Iran war · Iran threatens military response to US sanctions |
+| 2026-08-25 | 0.99 | Increased | -7 | 0.32 | -3.59 | 1 | Iran’s nuclear chief says attacked nuclear sites not secure for IAEA inspection · Can Trump's economic war against Iran do what airstrikes and negotiations couldn't? · Iran vows retaliation after U.S. widens sanctions, fueling fea |
+| 2026-08-31 | 1.01 | Increased | 0 | -0.33 | 1.18 | 3 | Iran claims attacks on Bahrain, Jordan, Iraq after US strikes kill 11 · Iran fires on its Gulf neighbors, retaliating for US strikes after a wedding was hit · U.S. Attacks Island in Strait of Hormuz; Iran Retaliates With Missile F |
+| 2026-09-01 | 1.11 | Increased | 5 | -0.71 | 4.16 | 2 | Iran claims attacks on Bahrain, Jordan, Iraq after US strikes kill 11 · Iran fires on U.S. allies in Gulf after night of American strikes it claims killed four at a wedding · Iran fires on its Gulf neighbors, retaliating for US st |
+| 2026-09-08 | 0.90 | Increased | 2 | -0.59 | 1.64 | -1 | US military strikes three Iranian tankers in retaliation for missile attacks · Hormuz traffic slows after Iran threatens retaliation for US attacks · U.S. Hits 5 Iranian Oil Tankers, Citing Attempted Strikes on Warship |
+| 2026-09-14 | 1.16 | Increased | 2 | -0.48 | 1.07 | 6 | Iran-backed Houthis claim to hit Saudi base with missiles, drones amid renewed fighting · Iraq probes drone strikes on Saudi Arabia, shuts three crossings to Iran · Iran hardliners said to have launched attacks in defiance of lead |
+| 2026-09-15 | 2.07 | Increased | 2 | -0.45 | 3.07 | 5 | Saudi strikes and Houthi attacks widen Middle East war · New photos show widespread damage at U.S. positions caused by Iranian missile, drone attacks · Iran war cost hits $38 billion, forecast to rise $3 billion a month, CBO says |
+| 2026-09-17 | 0.77 | Increased | -7 | 1.13 | -1.01 | 0 | Iran in, Abbas out: Trump threatens new strikes as US grants Tehran leaders UN visas · Houthi media says Saudi strikes kill one, hit telecom towers in Yemen · US approves visas for top Iranian leaders to attend UN high-level meeti |
 
 ## Table 2 (S1_level_q75). Estimated impact of an increase in war risk, normalised to a 25 bp drop in the two-year Treasury yield
 
@@ -225,36 +225,38 @@ S1 baseline: full sample, top-25% NLP index, nearest-day L. Window 2026-01-02 to
 
 ### Table 3 (S1_level_q75). Variances and share explained by the war-risk factor
 
+Not identified under this normalisation: the variance of the two-year yield is lower on the H days (0.00190) than on the L days (0.00334), so the predicted change in variance is negative and no share can be attributed. See the Brent-normalised tables.
+
 | Variable | Var. on L days | Var. on H days | Predicted change in var. | % explained, H days | % explained, all days |
 |---|---|---|---|---|---|
-| Ten-year Treasury yield | 0.002573 | 0.001624 | -0.0001021 |  |  |
-| 10y break-even inflation | 0.0003911 | 0.00052 | -7.161e-06 |  |  |
-| S&P 500 | 0.6766 | 0.7196 | -0.05225 |  |  |
-| BBB corporate OAS | 9.556e-05 | 0.00014 | -2.105e-06 |  |  |
-| High-yield corporate OAS | 0.001522 | 0.002271 | -2.263e-06 |  |  |
-| WTI front-month future | 6.762 | 20.98 | -6.751 |  |  |
-| Gold future | 3901 | 4872 | -316.8 |  |  |
-| Broad trade-weighted dollar | 0.05291 | 0.06738 | -0.008505 |  |  |
-| 10y TIPS real yield | 0.002027 | 0.0008289 | -0.001457 |  |  |
-| Brent front-month future | 6.383 | 19.52 | -5.434 |  |  |
-| DXY dollar index | 0.1103 | 0.06787 | -0.05857 |  |  |
-| EUR/USD | 0.1107 | 0.1152 | -0.004557 |  |  |
-| USD/JPY | 0.382 | 0.2325 | -0.004279 |  |  |
-| USD/CHF | 0.195 | 0.1764 | -0.0006492 |  |  |
-| VIX | 2.082 | 1.577 | -0.3673 |  |  |
-| 20y+ Treasury ETF (TLT) | 0.436 | 0.3004 | -0.05973 |  |  |
-| HY bond ETF (HYG) | 0.06618 | 0.1025 | -0.02887 |  |  |
-| Euro Stoxx 50 | 0.5974 | 1.59 | -0.2746 |  |  |
-| Nikkei 225 | 3.337 | 2.955 | -0.07716 |  |  |
-| EM equities (EEM) | 3.312 | 3.787 | -0.03518 |  |  |
-| Tel Aviv 35 | 1.157 | 1.626 | -0.004299 |  |  |
-| Saudi equities (KSA ETF) | 0.863 | 1.088 | -0.01149 |  |  |
-| US defense ETF (ITA) | 2.18 | 2.914 | -0.01881 |  |  |
-| US airlines ETF (JETS) | 3.059 | 6.953 | -0.7265 |  |  |
-| US energy ETF (XLE) | 1.296 | 2.925 | -0.113 |  |  |
-| Henry Hub natgas future | 5.884 | 7.728 | -0.195 |  |  |
-| Dry-bulk shipping ETF (BDRY) | 3.615 | 6.873 | -0.3091 |  |  |
-| Bitcoin | 4.821 | 6.185 | -0.1107 |  |  |
+| Ten-year Treasury yield | 0.002573 | 0.001624 | -0.0001021 | n.i. | n.i. |
+| 10y break-even inflation | 0.0003911 | 0.00052 | -7.161e-06 | n.i. | n.i. |
+| S&P 500 | 0.6766 | 0.7196 | -0.05225 | n.i. | n.i. |
+| BBB corporate OAS | 9.556e-05 | 0.00014 | -2.105e-06 | n.i. | n.i. |
+| High-yield corporate OAS | 0.001522 | 0.002271 | -2.263e-06 | n.i. | n.i. |
+| WTI front-month future | 6.762 | 20.98 | -6.751 | n.i. | n.i. |
+| Gold future | 3901 | 4872 | -316.8 | n.i. | n.i. |
+| Broad trade-weighted dollar | 0.05291 | 0.06738 | -0.008505 | n.i. | n.i. |
+| 10y TIPS real yield | 0.002027 | 0.0008289 | -0.001457 | n.i. | n.i. |
+| Brent front-month future | 6.383 | 19.52 | -5.434 | n.i. | n.i. |
+| DXY dollar index | 0.1103 | 0.06787 | -0.05857 | n.i. | n.i. |
+| EUR/USD | 0.1107 | 0.1152 | -0.004557 | n.i. | n.i. |
+| USD/JPY | 0.382 | 0.2325 | -0.004279 | n.i. | n.i. |
+| USD/CHF | 0.195 | 0.1764 | -0.0006492 | n.i. | n.i. |
+| VIX | 2.082 | 1.577 | -0.3673 | n.i. | n.i. |
+| 20y+ Treasury ETF (TLT) | 0.436 | 0.3004 | -0.05973 | n.i. | n.i. |
+| HY bond ETF (HYG) | 0.06618 | 0.1025 | -0.02887 | n.i. | n.i. |
+| Euro Stoxx 50 | 0.5974 | 1.59 | -0.2746 | n.i. | n.i. |
+| Nikkei 225 | 3.337 | 2.955 | -0.07716 | n.i. | n.i. |
+| EM equities (EEM) | 3.312 | 3.787 | -0.03518 | n.i. | n.i. |
+| Tel Aviv 35 | 1.157 | 1.626 | -0.004299 | n.i. | n.i. |
+| Saudi equities (KSA ETF) | 0.863 | 1.088 | -0.01149 | n.i. | n.i. |
+| US defense ETF (ITA) | 2.18 | 2.914 | -0.01881 | n.i. | n.i. |
+| US airlines ETF (JETS) | 3.059 | 6.953 | -0.7265 | n.i. | n.i. |
+| US energy ETF (XLE) | 1.296 | 2.925 | -0.113 | n.i. | n.i. |
+| Henry Hub natgas future | 5.884 | 7.728 | -0.195 | n.i. | n.i. |
+| Dry-bulk shipping ETF (BDRY) | 3.615 | 6.873 | -0.3091 | n.i. | n.i. |
+| Bitcoin | 4.821 | 6.185 | -0.1107 | n.i. | n.i. |
 
 ## Table 2 (S4_prewar). Estimated impact of an increase in war risk, normalised to a 25 bp drop in the two-year Treasury yield
 
@@ -361,36 +363,38 @@ S5 war and post-war window (2 Mar - 16 Sep). Window 2026-03-02 to 2026-09-16; nH
 
 ### Table 3 (S5_warpost). Variances and share explained by the war-risk factor
 
+Not identified under this normalisation: the variance of the two-year yield is lower on the H days (0.00212) than on the L days (0.00343), so the predicted change in variance is negative and no share can be attributed. See the Brent-normalised tables.
+
 | Variable | Var. on L days | Var. on H days | Predicted change in var. | % explained, H days | % explained, all days |
 |---|---|---|---|---|---|
-| Ten-year Treasury yield | 0.002357 | 0.001709 | -0.0001706 |  |  |
-| 10y break-even inflation | 0.0003743 | 0.0005886 | -1.92e-07 |  |  |
-| S&P 500 | 0.6864 | 0.8328 | -0.03123 |  |  |
-| BBB corporate OAS | 9.714e-05 | 9.429e-05 | -2.319e-05 |  |  |
-| High-yield corporate OAS | 0.001709 | 0.002143 | -3.194e-06 |  |  |
-| WTI front-month future | 5.989 | 25.91 | -10.89 |  |  |
-| Gold future | 4372 | 4430 | -388.1 |  |  |
-| Broad trade-weighted dollar | 0.05849 | 0.07958 | -0.0001425 |  |  |
-| 10y TIPS real yield | 0.002137 | 0.0007486 | -0.002043 |  |  |
-| Brent front-month future | 5.547 | 24.19 | -10.11 |  |  |
-| DXY dollar index | 0.1234 | 0.06836 | -0.06059 |  |  |
-| EUR/USD | 0.1046 | 0.1213 | -0.001426 |  |  |
-| USD/JPY | 0.4538 | 0.2531 | -0.1407 |  |  |
-| USD/CHF | 0.223 | 0.2043 | -0.003245 |  |  |
-| VIX | 2.161 | 1.581 | -0.5881 |  |  |
-| 20y+ Treasury ETF (TLT) | 0.4047 | 0.2788 | -0.2613 |  |  |
-| HY bond ETF (HYG) | 0.07269 | 0.1127 | -0.02683 |  |  |
-| Euro Stoxx 50 | 0.6256 | 1.909 | -0.7807 |  |  |
-| Nikkei 225 | 4.052 | 3.239 | -0.3489 |  |  |
-| EM equities (EEM) | 3.559 | 4.444 | -0.008709 |  |  |
-| Tel Aviv 35 | 1.382 | 1.69 | -0.01622 |  |  |
-| Saudi equities (KSA ETF) | 0.6294 | 1.323 | -0.8401 |  |  |
-| US defense ETF (ITA) | 2.279 | 3.594 | -0.178 |  |  |
-| US airlines ETF (JETS) | 2.877 | 7.932 | -0.947 |  |  |
-| US energy ETF (XLE) | 1.525 | 3.291 | -0.156 |  |  |
-| Henry Hub natgas future | 5.765 | 8.209 | -0.03009 |  |  |
-| Dry-bulk shipping ETF (BDRY) | 4.034 | 7.765 | -2.59 |  |  |
-| Bitcoin | 5.105 | 6.158 | -0.002389 |  |  |
+| Ten-year Treasury yield | 0.002357 | 0.001709 | -0.0001706 | n.i. | n.i. |
+| 10y break-even inflation | 0.0003743 | 0.0005886 | -1.92e-07 | n.i. | n.i. |
+| S&P 500 | 0.6864 | 0.8328 | -0.03123 | n.i. | n.i. |
+| BBB corporate OAS | 9.714e-05 | 9.429e-05 | -2.319e-05 | n.i. | n.i. |
+| High-yield corporate OAS | 0.001709 | 0.002143 | -3.194e-06 | n.i. | n.i. |
+| WTI front-month future | 5.989 | 25.91 | -10.89 | n.i. | n.i. |
+| Gold future | 4372 | 4430 | -388.1 | n.i. | n.i. |
+| Broad trade-weighted dollar | 0.05849 | 0.07958 | -0.0001425 | n.i. | n.i. |
+| 10y TIPS real yield | 0.002137 | 0.0007486 | -0.002043 | n.i. | n.i. |
+| Brent front-month future | 5.547 | 24.19 | -10.11 | n.i. | n.i. |
+| DXY dollar index | 0.1234 | 0.06836 | -0.06059 | n.i. | n.i. |
+| EUR/USD | 0.1046 | 0.1213 | -0.001426 | n.i. | n.i. |
+| USD/JPY | 0.4538 | 0.2531 | -0.1407 | n.i. | n.i. |
+| USD/CHF | 0.223 | 0.2043 | -0.003245 | n.i. | n.i. |
+| VIX | 2.161 | 1.581 | -0.5881 | n.i. | n.i. |
+| 20y+ Treasury ETF (TLT) | 0.4047 | 0.2788 | -0.2613 | n.i. | n.i. |
+| HY bond ETF (HYG) | 0.07269 | 0.1127 | -0.02683 | n.i. | n.i. |
+| Euro Stoxx 50 | 0.6256 | 1.909 | -0.7807 | n.i. | n.i. |
+| Nikkei 225 | 4.052 | 3.239 | -0.3489 | n.i. | n.i. |
+| EM equities (EEM) | 3.559 | 4.444 | -0.008709 | n.i. | n.i. |
+| Tel Aviv 35 | 1.382 | 1.69 | -0.01622 | n.i. | n.i. |
+| Saudi equities (KSA ETF) | 0.6294 | 1.323 | -0.8401 | n.i. | n.i. |
+| US defense ETF (ITA) | 2.279 | 3.594 | -0.178 | n.i. | n.i. |
+| US airlines ETF (JETS) | 2.877 | 7.932 | -0.947 | n.i. | n.i. |
+| US energy ETF (XLE) | 1.525 | 3.291 | -0.156 | n.i. | n.i. |
+| Henry Hub natgas future | 5.765 | 8.209 | -0.03009 | n.i. | n.i. |
+| Dry-bulk shipping ETF (BDRY) | 4.034 | 7.765 | -2.59 | n.i. | n.i. |
+| Bitcoin | 5.105 | 6.158 | -0.002389 | n.i. | n.i. |
 
 ## Table 2 (S6_curated). Estimated impact of an increase in war risk, normalised to a 25 bp drop in the two-year Treasury yield
 
@@ -429,36 +433,38 @@ S6 hand-curated event days (the paper's 'reading newspapers' approach). Window 2
 
 ### Table 3 (S6_curated). Variances and share explained by the war-risk factor
 
+Not identified under this normalisation: the variance of the two-year yield is lower on the H days (0.00266) than on the L days (0.00296), so the predicted change in variance is negative and no share can be attributed. See the Brent-normalised tables.
+
 | Variable | Var. on L days | Var. on H days | Predicted change in var. | % explained, H days | % explained, all days |
 |---|---|---|---|---|---|
-| Ten-year Treasury yield | 0.002 | 0.002149 | -0.0002138 |  |  |
-| 10y break-even inflation | 0.0004184 | 0.0005898 | -3.055e-05 |  |  |
-| S&P 500 | 0.6788 | 0.8689 | -0.04647 |  |  |
-| BBB corporate OAS | 0.0001122 | 0.0001837 | -4.53e-05 |  |  |
-| High-yield corporate OAS | 0.001751 | 0.003588 | -0.001916 |  |  |
-| WTI front-month future | 9.13 | 22.62 | -9.532 |  |  |
-| Gold future | 6951 | 1.274e+04 | -2828 |  |  |
-| Broad trade-weighted dollar | 0.0846 | 0.09528 | -0.003535 |  |  |
-| 10y TIPS real yield | 0.001537 | 0.001233 | -0.0003116 |  |  |
-| Brent front-month future | 9.978 | 22.4 | -9.979 |  |  |
-| DXY dollar index | 0.09706 | 0.1382 | -0.02417 |  |  |
-| EUR/USD | 0.124 | 0.1374 | -0.0007019 |  |  |
-| USD/JPY | 0.384 | 0.2094 | -0.2687 |  |  |
-| USD/CHF | 0.2293 | 0.165 | -0.1064 |  |  |
-| VIX | 2.751 | 3.286 | -0.04477 |  |  |
-| 20y+ Treasury ETF (TLT) | 0.3403 | 0.4865 | -0.0661 |  |  |
-| HY bond ETF (HYG) | 0.06662 | 0.09475 | -0.02165 |  |  |
-| Euro Stoxx 50 | 1.117 | 1.499 | -0.09813 |  |  |
-| Nikkei 225 | 4.722 | 4.003 | -0.05971 |  |  |
-| EM equities (EEM) | 4.654 | 3.086 | -0.008691 |  |  |
-| Tel Aviv 35 | 0.9761 | 1.749 | -0.9795 |  |  |
-| Saudi equities (KSA ETF) | 0.7575 | 1.236 | -0.3186 |  |  |
-| US defense ETF (ITA) | 2.048 | 2.685 | -0.1201 |  |  |
-| US airlines ETF (JETS) | 4.437 | 5.51 | -0.2929 |  |  |
-| US energy ETF (XLE) | 1.776 | 2.342 | -0.06062 |  |  |
-| Henry Hub natgas future | 93.51 | 26.71 | -103.9 |  |  |
-| Dry-bulk shipping ETF (BDRY) | 6.868 | 7.205 | -0.0008696 |  |  |
-| Bitcoin | 8.017 | 9.854 | -0.133 |  |  |
+| Ten-year Treasury yield | 0.002 | 0.002149 | -0.0002138 | n.i. | n.i. |
+| 10y break-even inflation | 0.0004184 | 0.0005898 | -3.055e-05 | n.i. | n.i. |
+| S&P 500 | 0.6788 | 0.8689 | -0.04647 | n.i. | n.i. |
+| BBB corporate OAS | 0.0001122 | 0.0001837 | -4.53e-05 | n.i. | n.i. |
+| High-yield corporate OAS | 0.001751 | 0.003588 | -0.001916 | n.i. | n.i. |
+| WTI front-month future | 9.13 | 22.62 | -9.532 | n.i. | n.i. |
+| Gold future | 6951 | 1.274e+04 | -2828 | n.i. | n.i. |
+| Broad trade-weighted dollar | 0.0846 | 0.09528 | -0.003535 | n.i. | n.i. |
+| 10y TIPS real yield | 0.001537 | 0.001233 | -0.0003116 | n.i. | n.i. |
+| Brent front-month future | 9.978 | 22.4 | -9.979 | n.i. | n.i. |
+| DXY dollar index | 0.09706 | 0.1382 | -0.02417 | n.i. | n.i. |
+| EUR/USD | 0.124 | 0.1374 | -0.0007019 | n.i. | n.i. |
+| USD/JPY | 0.384 | 0.2094 | -0.2687 | n.i. | n.i. |
+| USD/CHF | 0.2293 | 0.165 | -0.1064 | n.i. | n.i. |
+| VIX | 2.751 | 3.286 | -0.04477 | n.i. | n.i. |
+| 20y+ Treasury ETF (TLT) | 0.3403 | 0.4865 | -0.0661 | n.i. | n.i. |
+| HY bond ETF (HYG) | 0.06662 | 0.09475 | -0.02165 | n.i. | n.i. |
+| Euro Stoxx 50 | 1.117 | 1.499 | -0.09813 | n.i. | n.i. |
+| Nikkei 225 | 4.722 | 4.003 | -0.05971 | n.i. | n.i. |
+| EM equities (EEM) | 4.654 | 3.086 | -0.008691 | n.i. | n.i. |
+| Tel Aviv 35 | 0.9761 | 1.749 | -0.9795 | n.i. | n.i. |
+| Saudi equities (KSA ETF) | 0.7575 | 1.236 | -0.3186 | n.i. | n.i. |
+| US defense ETF (ITA) | 2.048 | 2.685 | -0.1201 | n.i. | n.i. |
+| US airlines ETF (JETS) | 4.437 | 5.51 | -0.2929 | n.i. | n.i. |
+| US energy ETF (XLE) | 1.776 | 2.342 | -0.06062 | n.i. | n.i. |
+| Henry Hub natgas future | 93.51 | 26.71 | -103.9 | n.i. | n.i. |
+| Dry-bulk shipping ETF (BDRY) | 6.868 | 7.205 | -0.0008696 | n.i. | n.i. |
+| Bitcoin | 8.017 | 9.854 | -0.133 | n.i. | n.i. |
 
 ## Table 2 (S3_surprise_q75). Estimated impact of an increase in war risk, normalised to a 25 bp drop in the two-year Treasury yield
 
@@ -497,36 +503,38 @@ S3 surprise index (intensity relative to the trailing 10-day median). Window 202
 
 ### Table 3 (S3_surprise_q75). Variances and share explained by the war-risk factor
 
+Not identified under this normalisation: the variance of the two-year yield is lower on the H days (0.00218) than on the L days (0.00293), so the predicted change in variance is negative and no share can be attributed. See the Brent-normalised tables.
+
 | Variable | Var. on L days | Var. on H days | Predicted change in var. | % explained, H days | % explained, all days |
 |---|---|---|---|---|---|
-| Ten-year Treasury yield | 0.00252 | 0.001667 | -0.001673 |  |  |
-| 10y break-even inflation | 0.0004267 | 0.0005156 | -4.979e-08 |  |  |
-| S&P 500 | 0.6626 | 0.6379 | -0.147 |  |  |
-| BBB corporate OAS | 0.0001267 | 0.0001378 | -7.359e-06 |  |  |
-| High-yield corporate OAS | 0.001249 | 0.002991 | -0.001371 |  |  |
-| WTI front-month future | 6.496 | 11.86 | -6.44 |  |  |
-| Gold future | 6826 | 1.354e+04 | -5270 |  |  |
-| Broad trade-weighted dollar | 0.05309 | 0.0715 | -6.885e-05 |  |  |
-| 10y TIPS real yield | 0.001791 | 0.001004 | -0.0005888 |  |  |
-| Brent front-month future | 7.255 | 14.35 | -9.152 |  |  |
-| DXY dollar index | 0.1002 | 0.1181 | -0.00285 |  |  |
-| EUR/USD | 0.1472 | 0.1365 | -0.008821 |  |  |
-| USD/JPY | 0.3458 | 0.3605 | -0.001125 |  |  |
-| USD/CHF | 0.2349 | 0.2399 | -0.000165 |  |  |
-| VIX | 1.649 | 1.688 | -0.05778 |  |  |
-| 20y+ Treasury ETF (TLT) | 0.4512 | 0.33 | -0.03156 |  |  |
-| HY bond ETF (HYG) | 0.07276 | 0.08812 | -0.01497 |  |  |
-| Euro Stoxx 50 | 0.7335 | 1.079 | -0.08059 |  |  |
-| Nikkei 225 | 3.491 | 2.017 | -1.265 |  |  |
-| EM equities (EEM) | 3.007 | 2.861 | -0.02399 |  |  |
-| Tel Aviv 35 | 1.826 | 1.439 | -0.1821 |  |  |
-| Saudi equities (KSA ETF) | 0.9602 | 1.125 | -0.00476 |  |  |
-| US defense ETF (ITA) | 2.374 | 2.563 | -0.0994 |  |  |
-| US airlines ETF (JETS) | 3.761 | 6.694 | -0.4957 |  |  |
-| US energy ETF (XLE) | 2.028 | 2.366 | -0.001533 |  |  |
-| Henry Hub natgas future | 102.6 | 45.78 | -111.1 |  |  |
-| Dry-bulk shipping ETF (BDRY) | 5.167 | 6.828 | -0.07787 |  |  |
-| Bitcoin | 4.388 | 13.73 | -5.243 |  |  |
+| Ten-year Treasury yield | 0.00252 | 0.001667 | -0.001673 | n.i. | n.i. |
+| 10y break-even inflation | 0.0004267 | 0.0005156 | -4.979e-08 | n.i. | n.i. |
+| S&P 500 | 0.6626 | 0.6379 | -0.147 | n.i. | n.i. |
+| BBB corporate OAS | 0.0001267 | 0.0001378 | -7.359e-06 | n.i. | n.i. |
+| High-yield corporate OAS | 0.001249 | 0.002991 | -0.001371 | n.i. | n.i. |
+| WTI front-month future | 6.496 | 11.86 | -6.44 | n.i. | n.i. |
+| Gold future | 6826 | 1.354e+04 | -5270 | n.i. | n.i. |
+| Broad trade-weighted dollar | 0.05309 | 0.0715 | -6.885e-05 | n.i. | n.i. |
+| 10y TIPS real yield | 0.001791 | 0.001004 | -0.0005888 | n.i. | n.i. |
+| Brent front-month future | 7.255 | 14.35 | -9.152 | n.i. | n.i. |
+| DXY dollar index | 0.1002 | 0.1181 | -0.00285 | n.i. | n.i. |
+| EUR/USD | 0.1472 | 0.1365 | -0.008821 | n.i. | n.i. |
+| USD/JPY | 0.3458 | 0.3605 | -0.001125 | n.i. | n.i. |
+| USD/CHF | 0.2349 | 0.2399 | -0.000165 | n.i. | n.i. |
+| VIX | 1.649 | 1.688 | -0.05778 | n.i. | n.i. |
+| 20y+ Treasury ETF (TLT) | 0.4512 | 0.33 | -0.03156 | n.i. | n.i. |
+| HY bond ETF (HYG) | 0.07276 | 0.08812 | -0.01497 | n.i. | n.i. |
+| Euro Stoxx 50 | 0.7335 | 1.079 | -0.08059 | n.i. | n.i. |
+| Nikkei 225 | 3.491 | 2.017 | -1.265 | n.i. | n.i. |
+| EM equities (EEM) | 3.007 | 2.861 | -0.02399 | n.i. | n.i. |
+| Tel Aviv 35 | 1.826 | 1.439 | -0.1821 | n.i. | n.i. |
+| Saudi equities (KSA ETF) | 0.9602 | 1.125 | -0.00476 | n.i. | n.i. |
+| US defense ETF (ITA) | 2.374 | 2.563 | -0.0994 | n.i. | n.i. |
+| US airlines ETF (JETS) | 3.761 | 6.694 | -0.4957 | n.i. | n.i. |
+| US energy ETF (XLE) | 2.028 | 2.366 | -0.001533 | n.i. | n.i. |
+| Henry Hub natgas future | 102.6 | 45.78 | -111.1 | n.i. | n.i. |
+| Dry-bulk shipping ETF (BDRY) | 5.167 | 6.828 | -0.07787 | n.i. | n.i. |
+| Bitcoin | 4.388 | 13.73 | -5.243 | n.i. | n.i. |
 
 ## Table 2 (S7_volume_q75). Estimated impact of an increase in war risk, normalised to a 25 bp drop in the two-year Treasury yield
 
@@ -565,36 +573,38 @@ S7 volume-only index (headline count + Wikipedia text volume), which concentrate
 
 ### Table 3 (S7_volume_q75). Variances and share explained by the war-risk factor
 
+Not identified under this normalisation: the variance of the two-year yield is lower on the H days (0.00201) than on the L days (0.00322), so the predicted change in variance is negative and no share can be attributed. See the Brent-normalised tables.
+
 | Variable | Var. on L days | Var. on H days | Predicted change in var. | % explained, H days | % explained, all days |
 |---|---|---|---|---|---|
-| Ten-year Treasury yield | 0.002298 | 0.001262 | -0.001483 |  |  |
-| 10y break-even inflation | 0.0005133 | 0.00046 | -1.394e-06 |  |  |
-| S&P 500 | 0.9489 | 0.6908 | -0.344 |  |  |
-| BBB corporate OAS | 0.0001178 | 0.00016 | -1.724e-07 |  |  |
-| High-yield corporate OAS | 0.002213 | 0.00336 | -3.845e-05 |  |  |
-| WTI front-month future | 9.824 | 19.5 | -0.261 |  |  |
-| Gold future | 5217 | 4940 | -514.3 |  |  |
-| Broad trade-weighted dollar | 0.0744 | 0.09604 | -0.004685 |  |  |
-| 10y TIPS real yield | 0.001384 | 0.0009 | -0.0002865 |  |  |
-| Brent front-month future | 12.46 | 23.04 | -0.05425 |  |  |
-| DXY dollar index | 0.1391 | 0.06927 | -0.09734 |  |  |
-| EUR/USD | 0.08387 | 0.1538 | -0.008472 |  |  |
-| USD/JPY | 0.2335 | 0.355 | -0.0008375 |  |  |
-| USD/CHF | 0.1946 | 0.254 | -0.001615 |  |  |
-| VIX | 3.009 | 2.028 | -1.327 |  |  |
-| 20y+ Treasury ETF (TLT) | 0.391 | 0.2519 | -0.01238 |  |  |
-| HY bond ETF (HYG) | 0.08806 | 0.0701 | -0.02612 |  |  |
-| Euro Stoxx 50 | 0.8786 | 1.666 | -0.173 |  |  |
-| Nikkei 225 | 3.05 | 5.402 | -0.0001735 |  |  |
-| EM equities (EEM) | 4.706 | 3.261 | -2.234 |  |  |
-| Tel Aviv 35 | 1.456 | 1.666 | -0.0908 |  |  |
-| Saudi equities (KSA ETF) | 0.6769 | 1.058 | -0.002402 |  |  |
-| US defense ETF (ITA) | 2.765 | 2.337 | -0.404 |  |  |
-| US airlines ETF (JETS) | 4.127 | 4.69 | -0.3806 |  |  |
-| US energy ETF (XLE) | 1.706 | 3.23 | -0.5222 |  |  |
-| Henry Hub natgas future | 4.987 | 5.662 | -0.01575 |  |  |
-| Dry-bulk shipping ETF (BDRY) | 4.932 | 5.324 | -0.0008328 |  |  |
-| Bitcoin | 5.538 | 6.106 | -0.4619 |  |  |
+| Ten-year Treasury yield | 0.002298 | 0.001262 | -0.001483 | n.i. | n.i. |
+| 10y break-even inflation | 0.0005133 | 0.00046 | -1.394e-06 | n.i. | n.i. |
+| S&P 500 | 0.9489 | 0.6908 | -0.344 | n.i. | n.i. |
+| BBB corporate OAS | 0.0001178 | 0.00016 | -1.724e-07 | n.i. | n.i. |
+| High-yield corporate OAS | 0.002213 | 0.00336 | -3.845e-05 | n.i. | n.i. |
+| WTI front-month future | 9.824 | 19.5 | -0.261 | n.i. | n.i. |
+| Gold future | 5217 | 4940 | -514.3 | n.i. | n.i. |
+| Broad trade-weighted dollar | 0.0744 | 0.09604 | -0.004685 | n.i. | n.i. |
+| 10y TIPS real yield | 0.001384 | 0.0009 | -0.0002865 | n.i. | n.i. |
+| Brent front-month future | 12.46 | 23.04 | -0.05425 | n.i. | n.i. |
+| DXY dollar index | 0.1391 | 0.06927 | -0.09734 | n.i. | n.i. |
+| EUR/USD | 0.08387 | 0.1538 | -0.008472 | n.i. | n.i. |
+| USD/JPY | 0.2335 | 0.355 | -0.0008375 | n.i. | n.i. |
+| USD/CHF | 0.1946 | 0.254 | -0.001615 | n.i. | n.i. |
+| VIX | 3.009 | 2.028 | -1.327 | n.i. | n.i. |
+| 20y+ Treasury ETF (TLT) | 0.391 | 0.2519 | -0.01238 | n.i. | n.i. |
+| HY bond ETF (HYG) | 0.08806 | 0.0701 | -0.02612 | n.i. | n.i. |
+| Euro Stoxx 50 | 0.8786 | 1.666 | -0.173 | n.i. | n.i. |
+| Nikkei 225 | 3.05 | 5.402 | -0.0001735 | n.i. | n.i. |
+| EM equities (EEM) | 4.706 | 3.261 | -2.234 | n.i. | n.i. |
+| Tel Aviv 35 | 1.456 | 1.666 | -0.0908 | n.i. | n.i. |
+| Saudi equities (KSA ETF) | 0.6769 | 1.058 | -0.002402 | n.i. | n.i. |
+| US defense ETF (ITA) | 2.765 | 2.337 | -0.404 | n.i. | n.i. |
+| US airlines ETF (JETS) | 4.127 | 4.69 | -0.3806 | n.i. | n.i. |
+| US energy ETF (XLE) | 1.706 | 3.23 | -0.5222 | n.i. | n.i. |
+| Henry Hub natgas future | 4.987 | 5.662 | -0.01575 | n.i. | n.i. |
+| Dry-bulk shipping ETF (BDRY) | 4.932 | 5.324 | -0.0008328 | n.i. | n.i. |
+| Bitcoin | 5.538 | 6.106 | -0.4619 | n.i. | n.i. |
 
 ## Table 2b (S1, alternative normalisation). Impact of a war-risk increase that raises the Brent front-month future by $5
 
