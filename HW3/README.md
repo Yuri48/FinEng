@@ -33,10 +33,9 @@ python make_report.py && python build_html.py   # appendix tables -> REPORT.md t
 | 2. News corpora: Google News RSS headlines (2 queries/day), Wikipedia *Portal:Current events* daily pages, GDELT timelines (if API allows) | `collect_news.py` | `data/gnews_headlines.jsonl`, `data/wiki_current_events.jsonl`, `data/gdelt_*.csv` |
 | 3. Wikipedia *Timeline of the 2026 Iran war* + prelude pages parsed into daily text | `wiki_timeline.py` | `data/wiki_timeline_daily.csv` |
 | 4. NLP features per calendar day: relevance filter, escalation lexicon, FinBERT tone, TF-IDF novelty, volume | `nlp_pipeline.py` | `data/daily_news_features.csv`, `data/relevant_headlines.csv` |
-| 5. Composite war-news index, H/L day selection, IV estimates (three instruments), variance decomposition, six specifications, figures | `run_analysis.py` (uses `warrisk.py`) | `output/table2_*.csv`, `output/summary_across_specs_*.csv`, `output/H_days_*.csv`, `output/fig/*.png` |
+| 5. Composite war-news index, H/L day selection, IV estimates (three instruments), variance decomposition, seven specifications, figures | `run_analysis.py` (uses `warrisk.py`) | `output/table2_*.csv`, `output/summary_across_specs_*.csv`, `output/H_days_*.csv`, `output/fig/*.png` |
 | 6. Table-1 analogue: headlines and market moves on each selected H day | `annotate_days.py <spec>` | `output/table1_<spec>.csv` |
 
-Run in order with `python3 market_data.py && python3 collect_news.py && python3 wiki_timeline.py && python3 nlp_pipeline.py && python3 run_analysis.py && python3 annotate_days.py S1_level_q75`.
 `compat.py` stubs a few scipy/sklearn modules whose compiled extensions fail to load on this machine after a macOS upgrade; nothing in the project uses them.
 
 ## Method (Rigobon & Sack 2003, eq. 1-12)
