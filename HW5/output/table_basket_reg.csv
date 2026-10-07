@@ -1,0 +1,43 @@
+y,spec,x,coef,t,p,r2,n
+basket,(1) dP,dp,-5.9207,-0.3977,0.6909,0.0025,39
+basket,(2) d tone index,d_tone,0.5182,0.0534,0.9574,0.0,39
+basket,(3) d pro-Dem index,d_prodem,-3.189,-0.4614,0.6445,0.0044,39
+basket,(4) dP + controls,dp,-3.525,-0.1842,0.8538,0.1248,39
+basket,(4) dP + controls,brent_ret,-14.9245,-2.5822,0.0098,0.1248,39
+basket,(4) dP + controls,d10y,5.7542,0.816,0.4145,0.1248,39
+basket,(5) d pro-Dem + controls,d_prodem,0.9946,0.1135,0.9097,0.1243,39
+basket,(5) d pro-Dem + controls,brent_ret,-15.2267,-2.1683,0.0301,0.1243,39
+basket,(5) d pro-Dem + controls,d10y,5.935,0.7556,0.4499,0.1243,39
+basket,(6) all,dp,-5.2483,-0.2943,0.7685,0.1553,39
+basket,(6) all,d_tone,-16.1096,-1.295,0.1953,0.1553,39
+basket,(6) all,d_prodem,-0.7107,-0.0874,0.9303,0.1553,39
+basket,(6) all,brent_ret,-18.7107,-2.3674,0.0179,0.1553,39
+basket,(6) all,d10y,7.8439,0.8894,0.3738,0.1553,39
+long,(1) dP,dp,-8.8742,-1.0471,0.2951,0.01,39
+long,(2) d tone index,d_tone,7.1625,0.8439,0.3987,0.014,39
+long,(3) d pro-Dem index,d_prodem,-0.8706,-0.2456,0.806,0.0006,39
+long,(4) dP + controls,dp,-7.5596,-0.775,0.4383,0.04,39
+long,(4) dP + controls,brent_ret,-4.9218,-0.9949,0.3198,0.04,39
+long,(4) dP + controls,d10y,0.4522,0.0788,0.9372,0.04,39
+long,(5) d pro-Dem + controls,d_prodem,0.0698,0.0152,0.9879,0.0328,39
+long,(5) d pro-Dem + controls,brent_ret,-5.0565,-0.9008,0.3677,0.0328,39
+long,(5) d pro-Dem + controls,d10y,0.3274,0.0524,0.9582,0.0328,39
+long,(6) all,dp,-7.1742,-0.7059,0.4802,0.0425,39
+long,(6) all,d_tone,3.5215,0.3352,0.7375,0.0425,39
+long,(6) all,d_prodem,0.3858,0.0796,0.9365,0.0425,39
+long,(6) all,brent_ret,-4.1517,-0.6641,0.5066,0.0425,39
+long,(6) all,d10y,0.0525,0.0079,0.9937,0.0425,39
+short,(1) dP,dp,-2.9536,-0.3003,0.7639,0.0013,39
+short,(2) d tone index,d_tone,6.6443,1.1651,0.244,0.0147,39
+short,(3) d pro-Dem index,d_prodem,2.3183,0.4269,0.6694,0.005,39
+short,(4) dP + controls,dp,-4.0346,-0.3267,0.7439,0.1168,39
+short,(4) dP + controls,brent_ret,10.0027,2.4914,0.0127,0.1168,39
+short,(4) dP + controls,d10y,-5.302,-1.3841,0.1663,0.1168,39
+short,(5) d pro-Dem + controls,d_prodem,-0.9248,-0.1533,0.8782,0.1151,39
+short,(5) d pro-Dem + controls,brent_ret,10.1702,2.5122,0.012,0.1151,39
+short,(5) d pro-Dem + controls,d10y,-5.6076,-1.3086,0.1907,0.1151,39
+short,(6) all,dp,-1.926,-0.1856,0.8528,0.214,39
+short,(6) all,d_tone,19.6311,2.3543,0.0186,0.214,39
+short,(6) all,d_prodem,1.0966,0.2031,0.8391,0.214,39
+short,(6) all,brent_ret,14.5591,3.0285,0.0025,0.214,39
+short,(6) all,d10y,-7.7914,-2.0397,0.0414,0.214,39
