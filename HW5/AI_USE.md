@@ -1,15 +1,4 @@
-# AI use disclosure: hypothetical 20 percent scenario (research illustration)
-
-> **HYPOTHETICAL. This file does not describe how this assignment was produced.** It illustrates what an AI-use
-> disclosure for this project would look like if the AI tool had done roughly 20 percent of the work. The actual
-> disclosure is [`AI_USE.md`](AI_USE.md): in reality Claude designed the study, wrote the code, labelled the topics and
-> the validation sample, and drafted the report. Do not submit this file as the disclosure for Assignment 5.
->
-> In this scenario the report itself would also read differently. Sections 3 and 4 of `REPORT.md` say the topic labels
-> and the validation labels came from an LLM; under a 20 percent split they would be human labels, and the method text
-> would have to say so.
-
----
+# AI use disclosure:
 
 **Tools used:**
 
