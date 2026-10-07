@@ -18,5 +18,3 @@ venv/
 .DS_Store
 *.log
 
-# Hypothetical research illustration, not part of the submission
-AI_USE_research.md
